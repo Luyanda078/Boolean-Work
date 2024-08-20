@@ -11,7 +11,7 @@ Clone the project
 ```
 Go to the project directory
 ```bash
-  cd Boolean-work
+  cd Boolean-Work
 ```
 Install dependencies
 ```bash
