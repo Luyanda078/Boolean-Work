@@ -7,7 +7,7 @@
 ## Run Locally
 Clone the project
 ```bash
- https://github.com/Luyanda078/Boolean-Work)
+ https://github.com/Luyanda078/Boolean-Work
 ```
 Go to the project directory
 ```bash
