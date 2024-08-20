@@ -4,6 +4,7 @@
 
 <p>To practise and exercising the booleans activities</p>
 
+## Run Locally
 Clone the project
 ```bash
   git clone https://github.com/Amniei/Shopping-List.git
