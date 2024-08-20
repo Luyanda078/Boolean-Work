@@ -7,7 +7,7 @@
 ## Run Locally
 Clone the project
 ```bash
-  git clone https://github.com/Amniei/Shopping-List.git
+  git clone https://github.com/Luyanda078/Shopping-List.git
 ```
 Go to the project directory
 ```bash
