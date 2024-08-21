@@ -7,6 +7,7 @@ import Nopage from './components/nopage'
 import Traffic from './components/traffic'
 import Exercisez from './components/exercisez'
 import Layout from './components/layout'
+// import vitePluginRequire from "vite-plugin-require";
 
 
 function App() {
