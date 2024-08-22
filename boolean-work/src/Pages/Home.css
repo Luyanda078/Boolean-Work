@@ -1,0 +1,62 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  .hero {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .content {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 70vw;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .features {
+    padding: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .features li {
+    margin-bottom: 10px;
+  }
+  
+  .call-to-action {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .call-to-action button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .call-to-action button:hover {
+    background-color: #444;
+  }
+  
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+  }
