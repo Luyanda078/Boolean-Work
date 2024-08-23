@@ -14,7 +14,7 @@ export default function BiggestNum() {
   return (
     <div>
       
-      <div className="w3-card-4"style={{width:'60%', marginLeft:'20px',marginTop:'20px'}}>
+      <div className="w3-card-4"style={{width:'80%', marginLeft:'20px',marginTop:'20px'}}>
     <header className="w3-container w3-blue">
       <h1>Chucky</h1>
     </header>

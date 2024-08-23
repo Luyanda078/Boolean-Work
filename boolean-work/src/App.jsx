@@ -18,19 +18,22 @@ import ViewMovie from './Pages/viewMovie';
 
 function App() {
  
+ 
   return (
     <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="home" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="traffic" element={<Traffic />} />
-          <Route path="exercisez" element={< Exercisez/>} />
-          <Route path="myMovies" element={<Movies movie={Object}/>} />
+          <Route path="exercisez" element={<Exercisez/>} />
+          <Route path="myMovies" >
+          <Route index element={<Movies movie={Object}/>}/>
+          <Route path=":id" element={<ViewMovie viewfilms={Object}/>}/> 
+          </Route>
+          <Route path="*" element={<Nopage />} />
           <Route path="contact" element={<Contact/>} />
-          <Route path="nopage" element={<Nopage />} />
-          <Route path="viewMovie/" element={<ViewMovie />} />
-        
+          
         </Route>
       </Routes>
     </BrowserRouter>

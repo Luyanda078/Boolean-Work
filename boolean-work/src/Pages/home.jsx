@@ -23,30 +23,10 @@ export default function Home() {
   }
 
   return (
-    <div className="home-container" style={{ backgroundColor, height: '100vh', width: '100vw' }}>
-      <div className="hero">
-        <img
-          src="https://images.unsplash.com/photo-1577401239170-897942555fb3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG9iamVjdHMlMjBpc29sYXRlZHxlbnwwfHwwfHx8MA%3D%3D"
-          alt="Hero Image"
-          style={{
-            width: '30vw',
-            height: '30vh',
-            objectFit: 'cover',
-            borderRadius: '10px',
-            marginLeft: '20px',
-            marginTop: '20px',
-          }}
-        />
-      </div>
-
-      <div className="content">
-        <div className="header">
-          <h1>Welcome to Luyanda's Website</h1>
-          <p>This is a website for exercises, learning and Movie streaming!</p>
-        </div>
-
+    <div className="home-container" style={{ backgroundColor, height: '100vh', width: '100vw', display: 'flex', justifyContent: 'space-between' }}>
+      <div className="content" style={{marginTop:'230px'}}>
         <div className="features">
-          <h2>Features of My Website</h2>
+          <h1 style={{fontWeight:"bold", fontSize:"56px"}}>The best way<br></br> to showcase <br></br>your project</h1>
           <ul>
             <li>Exercises for learning and practice</li>
             <li>Interactive and engaging content</li>
@@ -58,8 +38,20 @@ export default function Home() {
           <h2>Get Started Today!</h2>
           <button>Start Now</button>
         </div>
+      </div>
 
-        
+      <div className="hero">
+        <img
+          src="https://images.unsplash.com/photo-1577401239170-897942555fb3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG9iamVjdHMlMjBpc29sYXRlZHxlbnwwfHwwfHx8MA%3D%3D"
+          alt="Hero Image"
+          style={{
+            width: '30vw',
+            height: '30vh',
+            objectFit: 'cover',
+            borderRadius: '10px',
+            marginTop:'150px'
+          }}
+        />
       </div>
     </div>
   );

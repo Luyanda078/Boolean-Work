@@ -1,5 +1,7 @@
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import movies from '../assets/movies';
 
 export default function Card({film}) {
    
@@ -17,8 +19,11 @@ export default function Card({film}) {
       <p>{film.genre}</p>
       <p>{film.rating}</p>
       <p>{film.description}</p>
-      <p>{film.imageUrl}</p>
-      <button>View More</button>
+      
+      
+     <Link to={`${film.id}`}> <button>Read More </button></Link>
+    
+      
     </header>
 
    </div>
